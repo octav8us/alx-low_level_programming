@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- *  main - prints 0..9 with putchar 
+ *  main - prints 0..9 with putchar
  *
  *  Return: always 0
  */
