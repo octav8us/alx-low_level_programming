@@ -1,11 +1,9 @@
 #include<stdio.h>
 
 /**
- *
  *  main - prints the alphapet
  *
  *  Return : always 0
- *
  */
 int main(void)
 {
