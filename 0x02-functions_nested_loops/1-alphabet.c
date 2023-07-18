@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * main - prints the whole alphapet
  * Return: always 0
  */
