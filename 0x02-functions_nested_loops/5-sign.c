@@ -1,4 +1,4 @@
-#include "home.h"
+#include "main.h"
 /**
  * print_sign - checks if @n is bigger or smaller or equal to 0
  * prints + or - or 0 respectively
