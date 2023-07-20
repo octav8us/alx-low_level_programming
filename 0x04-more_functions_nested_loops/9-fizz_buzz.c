@@ -30,7 +30,7 @@ int main(void)
 		}
 
 		if (!is_fizz_or_buzz)
-			printf("%d", i);
+			printf("%i", i);
 		if (i < 100)
 			printf(" ");
 	}
