@@ -31,7 +31,8 @@ int main(void)
 
 		if (!is_fizz_or_buzz)
 			printf("%d", i);
-		printf(" ");
+		if (i < 100)
+			printf(" ");
 	}
 	printf("\n");
 	return (1);
