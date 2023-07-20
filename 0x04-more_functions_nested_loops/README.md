@@ -1,0 +1,1 @@
+lesson elaborates more on functions, loops and nested loops.
