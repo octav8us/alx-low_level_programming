@@ -13,14 +13,14 @@ int _atoi(char *s)
 	int result = 0;
 	int negative = 0;
 
-	for (i = 0; !(('0' <= s[i]) && (s[i] <= '9')); i++)
+	for (i = 0; !(('0' <= s[i]) && (s[i] <= '9')) && s[i] != '\0' ; i++)
 	{
 	if (s[i] == '-')
 		negative = !negative;
 
 	}
 
-	for (j = 0; ('0' <= s[i]) && (s[i] <= '9'); i++, j++)
+	for (j = 0; ('0' <= s[i]) && (s[i] <= '9') && s[i] != '\0'; i++, j++)
 	{
 		result = (result * 10) + (s[i] - '0');
 	}
