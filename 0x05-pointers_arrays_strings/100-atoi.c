@@ -26,7 +26,7 @@ int _atoi(char *s)
 	}
 
 
-	if (negative)
+	if (negative && result != 0)
 		result *= -1;
 	return (result);
 }
