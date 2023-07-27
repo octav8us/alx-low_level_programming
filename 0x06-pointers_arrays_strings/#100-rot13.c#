@@ -1,0 +1,39 @@
+#include "main.h"
+/**
+ * *rot13 - encodes string using rot13 algorithm
+ * @s: the string to be encoded
+ * Return: encouded words
+ */
+
+
+char *rot13(char *s)
+{
+
+	int i, j;
+	char *result = "";
+
+
+	for (i = 0; s[i]; i++)
+	{
+		if( s[i] >= 'a' && s[i] <= 'z')
+		{
+			j = (s[i] - 'a') + 13;
+			result[i] = 'a' + (j % 26);
+		}
+		else
+		{
+
+			j = (s[i] - 'A') + 13;
+			result[i] = 'A' + (j % 26);
+		}
+
+		return (*result);
+
+	}
+
+
+
+	return (*result);
+
+
+}
