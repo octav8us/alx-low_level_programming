@@ -1,0 +1,28 @@
+#include "main.h"
+
+/**
+ * _strchr - prints found c
+ * @s: pointer to char
+ * @c: char params to found
+ * Return: first occurrence of @c
+*/
+
+char *_strchr(char *s, char c)
+{
+
+	int i;
+	char *result;
+
+	result = NULL;
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		if (s[i] == c)
+		{
+			result = &c;
+			break;
+		}
+	}
+
+	return (result);
+
+}
