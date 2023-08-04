@@ -8,7 +8,7 @@
  * Return: 0 if sucess
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	(void)argc;
 
