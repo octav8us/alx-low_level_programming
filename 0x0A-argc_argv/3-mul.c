@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("Erorr\n");
+		printf("Erorr");
 		return (1);
 	}
 	num1 = atoi(argv[1]);
