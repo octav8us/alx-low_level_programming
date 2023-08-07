@@ -1,0 +1,22 @@
+#include "main.h"
+/**
+ *create_array - returns list of size @size 
+ * filled witg @c
+ * @c: charachter to use
+ * @size: size of array
+ */
+
+
+char *create_array(unsigned int size, char c)
+{
+	char* p;
+
+	*p = mallaloc(sizeof(c) *size);
+
+	return p;
+
+
+
+
+
+}
