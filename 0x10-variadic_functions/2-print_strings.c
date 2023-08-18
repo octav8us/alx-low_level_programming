@@ -34,10 +34,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 			if (param == NULL)
 			{
-				printf("%s%c", "(nil)", *separator);
+				printf("%s%s", "(nil)", separator);
 				continue;
 			}
-			printf("%s%c ", param, *separator);
+			printf("%s%s ", param, separator);
 		}
 	}
 	param = va_arg(ap, char*);
