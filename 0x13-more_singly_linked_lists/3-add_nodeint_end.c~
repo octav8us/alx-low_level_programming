@@ -1,0 +1,16 @@
+#include"lists.h"
+/**
+ * add_nodeint_end - add node to end of list
+ * @haed: the listint_t to be added to.
+ * @n: the value of node.
+ * Return: the adress to the new element.
+ */
+
+
+listint_t *add_nodeint_end(listint_t **head, const int n);
+{
+	
+
+
+
+}
